@@ -1,0 +1,22 @@
+Objects in JavaScript:
+Definition:
+An object in JavaScript is a collection of key-value pairs, where each key is a string or symbol, 
+and the corresponding value can be any data type, including other objects, functions, or primitive values like strings, numbers, or booleans.
+
+Creating Objects:
+You can create objects using the object literal syntax:
+const myObject = {
+  key1: 'value1',
+  key2: 42,
+  key3: true,
+  
+};
+Keys and values are separated by colons, and pairs are separated by commas.
+Accessing Values:
+You can access values in an object using the key:
+console.log(myObject.key1); // Outputs: 'value1'
+Here the value is stored inside the keys like 'key1' contains value1,key2 contains 42 and key3 contains true.
+
+Alternatively, you can use square bracket notation:
+console.log(myObject['key2']); // Outputs: 42
+
